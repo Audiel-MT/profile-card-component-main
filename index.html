@@ -6,21 +6,40 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <title>Frontend Mentor | Profile card component</title>
+  <link rel="stylesheet" href="./css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
-  Victor Crest
-  26
-  London
 
-  80K
-  Followers
+  <main class="container">
+    <div class="card">
+      <figure class="card__img">
+        <img src="./images/image-victor.jpg" alt="avatar" class="img" />
+      </figure>
+      <section class="inf">
+        <h1 class="title">Victor Crest <span class="title--weight">26</span></h1>
+        <p class="title--padding title--weight">London</p>
+        <article class="data">
+          <section>
+            <h2 class="data__number">80K</h2>
+            <p class="data__sub-title title--weight">Followers</p>
+          </section>
+          <section>
+            <h2 class="data__number">803K</h2>
+            <p class="data__sub-title title--weight">Likes</p>
+          </section>
+          <section>
+            <h2 class="data__number">1.4K</h2>
+            <p class="data__sub-title title--weight">Phothos</p>
+          </section>
+        </article>
+      </section>
+    </div>
+  </main>
 
-  803K
-  Likes
-
-  1.4K
-  Photos
 </body>
 
 </html>
